@@ -1,0 +1,26 @@
+.prayers-container {
+    width: 50vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    top: calc(100vh - 70px);
+}
+.prayers-container .load-more {
+    padding: 10px;
+    background-color: #e74c3c;
+    border-radius: 8px;
+    border: 0px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    align-self: center;
+}
+
+
+@media (max-width: 1050px) {
+    .prayers-container {
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+}

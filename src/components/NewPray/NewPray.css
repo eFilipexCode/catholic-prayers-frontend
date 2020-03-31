@@ -1,0 +1,69 @@
+.post-pray {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 14px 5px #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.post-pray a {
+    text-decoration: none;
+    color: #e74c3c;
+    font-size: large;
+}
+
+.pray-form {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pray-form input {
+    margin: 15px 0px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #e74c3c;
+    padding-left: 10px;
+}
+
+.pray-form button {
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 15px;
+    border: none;
+    margin: 10px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.pray-form button:hover {
+    background-color: #c0392b;
+}
+
+.pray-form textarea {
+    border-radius: 10px;
+    border: 1px solid #e74c3c;
+    padding: 5px;
+    padding-left: 10px;
+    flex: 1;
+    resize: none;
+}
+
+@media (max-width: 1050px) {
+    .post-pray {
+        flex-direction: column;
+    }
+}
