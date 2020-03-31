@@ -33,7 +33,7 @@
 }
 
 
-@media (max-width: 380px) {
+@media (max-width: 450px) {
     .site-name h1{
         display: none;
     }
