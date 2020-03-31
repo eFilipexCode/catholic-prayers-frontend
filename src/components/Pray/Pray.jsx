@@ -7,7 +7,7 @@ function Pray(props) {
             <h1 className="title">{props.title}</h1>
             <p className="content">{props.content}</p>
             <div className="credits-prayer">
-                <span>Oração criada por: <span className="creator">{props.creator}</span></span>
+                <span>Oração inserida por: <span className="creator">{props.creator}</span></span>
             </div>
         </div>
     );

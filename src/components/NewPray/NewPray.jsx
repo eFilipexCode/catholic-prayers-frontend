@@ -47,7 +47,7 @@ function NewPray() {
                 <input
                     onChange={e => setCreator(e.target.value)} 
                     value={creator}
-                    placeholder="Criador" />
+                    placeholder="Seu nome" />
                 <button type="submit">Enviar</button>
             </form>
         </div>
