@@ -1,6 +1,6 @@
 .pray-container {
     width: 450px;
-    height: 350px;
+    min-height: 350px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
